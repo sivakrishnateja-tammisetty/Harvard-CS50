@@ -1,4 +1,41 @@
-Lecture 0- scratch
-Lecture 1- C( string.h, ctype.h,strlen(), loops, decision-making statements)
-Lecture 2-Arrays(Here we learend cowsay,cowsay is a program that generates ASCII art pictures through pictures. eg: cowsay mee & we can use different animal also like cowsay -f  duck bakk)
-Lecture 3-Algorithms
+*Lecture 0- scratch
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+*Lecture 1- C( string.h, ctype.h,strlen(), loops, decision-making statements)
+
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+*Lecture 2-Arrays(Here we learend cowsay,cowsay is a program that generates ASCII art pictures through pictures. eg: cowsay mee & we can use different animal also like cowsay -f  duck bakk).
+
+
+$ cowsay hello
+ _______
+< hello >
+ -------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+$ cowsay sri
+ _____
+< sri >
+ -----
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+$ cowsay -f duck bakk
+ ______
+< bakk >
+ ------
+ \
+  \
+   \ >()_
+      (__)__ _
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+*Lecture 3-Algorithms
