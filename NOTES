@@ -1,13 +1,22 @@
-*Lecture 0- scratch
+                                                          *Lecture 0- scratch
 
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-*Lecture 1- C( string.h, ctype.h,strlen(), loops, decision-making statements)
+                                                           *Lecture 1- C( string.h, ctype.h,strlen(), loops, decision-making statements)
+
+>>in cscode.io ==>file creating[code filename.c] & compilation[make execute_file] and execute [./execute_file]
+
+>> #include<ctype.h> ==> islower(), isupper(),toupper(),tolower()
+>>Debugger
+>>
 
 
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-*Lecture 2-Arrays(Here we learend cowsay,cowsay is a program that generates ASCII art pictures through pictures. eg: cowsay mee & we can use different animal also like cowsay -f  duck bakk).
+                                                            *Lecture 2-Arrays
+
+>>  Array of strings and command line arguments.
+>>Here we learend cowsay,cowsay is a program that generates ASCII art pictures through pictures. eg: cowsay mee & we can use different animal also like cowsay -f  duck bakk.
 
 
 $ cowsay hello
@@ -38,4 +47,54 @@ $ cowsay -f duck bakk
       (__)__ _
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-*Lecture 3-Algorithms
+                                                                             *Lecture 3-Algorithms
+
+*Linear search- O(n)
+
+*Binary search -O(logn)
+
+*Analazing algorithms formuales is(order was worst to best):
+ O(n^2)
+ O(nlogn)
+ O(n)
+ O(logn)
+ O(1) 
+
+
+Big O nataion (O)- Defines upper bound and lower bound should take same amount of time.
+Big Omega notation (Ω): It is define as lower bound and lower bound on an algorithm is the least amount of time required ( the most efficient way possible, in other words best case).
+Big Theta notation (Θ) : It is define as tightest bound and tightest bound is the best of all the worst case times that the algorithm can take.
+* typedef
+
+Eg: for multiple datatypes
+#include <iostream>
+using namespace std;
+typedef struct
+{
+    string name;
+    string num;
+}person;
+int main() {
+   person people[2];
+   people[0].name="siva";
+   people[0].num="879273382";
+   people[1].name="Krishna";
+   people[1].num="2232134";
+   string s;
+   cout<<"enter your name to find:";
+   getline(cin,s);
+   for(int i=0;i<2;i++)
+   {
+       if(people[i].name==s)
+       {
+           cout<<"found "<<people[i].num;
+           return 0;
+       }
+   }
+   cout<<"Not found";
+ 
+
+    return 0;
+}
+
+
