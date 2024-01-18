@@ -134,5 +134,21 @@ int main() {
 
 *Bit map- it map is a type of image and it's a map of bits.
 * & and * operators .
+* %p specifier is used to print address of a variable in hexadecimal format.
 *Pointers
+*pointer Arithmetic
+* == vs strcmp ==> while comparing two strings,because == compares two memory address instead of character by character .
+*malloc
+*free
+*valgrind:
+          Valgrind is an open-source programming tool suite that is used for memory debugging, memory leak detection, and profiling. 
+          It is widely used in the C and C++ programming communities to identify memory-related issues and improve the robustness of software applications.
+
+          valgrind --tool=memcheck ./your_program   (or) valgrind ./prgm
+
+*writing data into csv file(fopen,fprintf(file,"format specifier",variables,...))
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                    LECTURE -ALGORITHMS
+
 
